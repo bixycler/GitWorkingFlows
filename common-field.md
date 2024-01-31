@@ -4,10 +4,10 @@ Common field
 This file simulates a pre-existing file to be modified by members.
 ```
 6   Member #1: mod
-7
+7   Member #2: mod privately! (pseudo-conflict)
 8   Member #2: mod
 9
-10
+10  Member #2: mod privately!
 11
 12
 13
