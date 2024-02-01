@@ -21,3 +21,7 @@ Action log: (done)
 
 - Update `common-field.md`:21:A: mod conflict with B
 - Update `feature-A.md`
+
+
+- Update `common-field.md`:23-25:mod by both A & B
+- Update `feature-A.md`
