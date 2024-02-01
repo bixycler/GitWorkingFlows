@@ -18,7 +18,7 @@ This file simulates a pre-existing file to be modified by members.
 18  A: mod next to B
 19
 20
-21
+21  A: mod conflict with B
 22
 23
 24
