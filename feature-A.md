@@ -12,3 +12,8 @@ Action log: (done)
 - Update `common-field.md`:8:mod by both A & B
 - Update `common-field.md`:10:A: mod sep from B
 - Update `feature-A.md`
+
+
+- Update `common-field.md`:14:A: mod sep from B
+- Update `common-field.md`:18:A: mod next to B
+- Update `feature-A.md`
