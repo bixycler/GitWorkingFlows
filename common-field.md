@@ -5,7 +5,7 @@ This file simulates a pre-existing file to be modified by members.
 ```
 6   A: cherry-picked to B
 7
-8
+8   AB: mod by both A & B
 9
 10
 11
