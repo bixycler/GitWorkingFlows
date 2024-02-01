@@ -21,7 +21,7 @@ This file simulates a pre-existing file to be modified by members.
 21  AB: mod conflict with BA
 22
 23  AB: mod by both A & B
-24  AB: mod by both A & B
+24   A: mod again by A
 25  AB: mod by both A & B
 26
 27  AB: mod by both A & B
