@@ -11,11 +11,11 @@ This file simulates a pre-existing file to be modified by members.
 11
 12  B: mod sep from A
 13
-14
+14  A: mod sep from B
 15
 16  B: mod sep from A
 17
-18
+18  A: mod next to B
 19  B: mod next to A
 20
 21  B: mod conflict with A
