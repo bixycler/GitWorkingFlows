@@ -18,7 +18,7 @@ This file simulates a pre-existing file to be modified by members.
 18  A: mod next to B
 19  B: mod next to A
 20
-21  B: mod conflict with A
+21  AB: mod conflict with BA
 22
 23  AB: mod by both A & B
 24  AB: mod by both A & B
