@@ -13,20 +13,20 @@ This file simulates a pre-existing file to be modified by members.
 13
 14
 15
-16
+16  B: mod sep from A
 17
 18
-19
+19  B: mod next to A
 20
-21
+21  B: mod conflict with A
 22
-23
-24
-25
+23  AB: mod by both A & B
+24  AB: mod by both A & B
+25  AB: mod by both A & B
 26
-27
-28
-29
+27  AB: mod by both A & B
+28  AB: mod by both A & B again
+29  AB: mod by both A & B
 30
 31
 ```
