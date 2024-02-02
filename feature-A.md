@@ -29,3 +29,7 @@ Action log: (done)
 
 - Update `common-field.md`:24:mod again by A
 - Update `feature-A.md`
+
+
+- Update `common-field.md`:27-29:mod by both A & B
+- Update `feature-A.md`
