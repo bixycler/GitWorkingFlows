@@ -19,3 +19,7 @@ Action log: (done)
 - Update `common-field.md`:16-29: mod sep, next, conflict, both, both again
 - Update `feature-B.md`
 
+
+- Rebase -i project-commonChanges, to separate the Merge `feature-commonChanges-A`
+  This reset merge-base to project-commonChanges instead of 07066c93 (Create `feature-A.md`)
+- Update `feature-B.md`
