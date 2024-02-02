@@ -1,0 +1,38 @@
+feature-commonChanges-A-rebase-B
+>>> git rebase feature-commonChanges-B
+
+warning: skipped previously applied commit 07066c9
+    Create `feature-A.md`
+warning: skipped previously applied commit 97e778b
+    Update `common-field.md`:6:cherry-picked to B
+warning: skipped previously applied commit 429d897
+    Update `common-field.md`:8:mod by both A & B
+    (same content, different authorized time: A=21:23, B=21:16)
+hint: use --reapply-cherry-picks to include skipped commits
+
+dropping 65fc2fee
+    Update `common-field.md`:8:mod by both A & B
+    (different commit content)
+-- patch contents already upstream
+
+CONFLICT (content): Merge conflict in common-field.md
+error: could not apply 35d2a96... A: mod {sep from, next to} B
+    Pseudo-conflict: 18:A mod next to B:19
+
+CONFLICT (content): Merge conflict in common-field.md
+error: could not apply 4b93069... A: mod conflict with B
+    Real conflict: 21:AB: mod conflict with BA
+
+NO CONFLICT at 387e15c7..e4060b0e
+    Update `common-field.md`:23-25:mod by both A & B
+    Update `common-field.md`:24:mod again by A
+--  This is a conflict in non-rebase merge!
+
+CONFLICT (content): Merge conflict in common-field.md
+error: could not apply 2b22298... 
+             Update `common-field.md`:27-29:mod by both A & B
+...33b97be4: Update `common-field.md`:28:mod by both A & B again
+    Conflict due to partial mod in A 
+  the remaining mod is "again"
+-- This is NOT a conflict in non-rebase merge!
+
