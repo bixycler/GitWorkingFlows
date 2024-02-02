@@ -24,9 +24,9 @@ This file simulates a pre-existing file to be modified by members.
 24   A: mod again by A
 25  AB: mod by both A & B
 26
-27
-28
-29
+27  AB: mod by both A & B
+28  AB: mod by both A & B
+29  AB: mod by both A & B
 30
 31
 ```
